@@ -66,7 +66,7 @@ var ListNode = function (val) {
     this.next = null;
 };
 
-function generateListNode(listArray) {
+var generateListNode = function (listArray) {
     var temp;
     var head = null;
     listArray.forEach(function (e, i) {
