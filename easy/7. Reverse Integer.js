@@ -8,6 +8,7 @@
  */
 var reverse = function (x) {
     var ret;
+    // 如果是0直接返回
     if (x === 0) {
         ret = 0;
     } else {
@@ -42,4 +43,4 @@ var reverse = function (x) {
     return ret;
 };
 
-console.log(reverse(123));
+console.log(reverse(10));
